@@ -174,7 +174,7 @@ if __name__=='__main__':
     
     if choice == '1':
         city = input("Enter your city: ")
-        api_key = '5f74547800ab55e06053217dbdc5eb3d' #create your own api over openweatherapp website and use it sign up in the website then click over your profile a dropdown menu will open
+        api_key = 'API' #create your own api over openweatherapp website and use it sign up in the website then click over your profile a dropdown menu will open
                                 #go to api key make your api key
         weather = weather_app(api_key,city)
 
@@ -186,7 +186,7 @@ if __name__=='__main__':
             print(weather)
     elif choice=='2':
         city=input("enter city")
-        API_key="4df673486bee46629b534df494a08e1f"
+        API_key="API"
         weather_data = hist_weather(API_key,city)
         print(weather_data)
         print('\n')
@@ -194,7 +194,7 @@ if __name__=='__main__':
         print('above mentioned data is historical data for the city provided for prediction, though I am unable to finish rest of the prediciton model')
     elif choice=='3':
         city = input("Enter your city: ")
-        api_key = '5f74547800ab55e06053217dbdc5eb3d' #create your own api over openweatherapp website and use it sign up in the website then click over your profile a dropdown menu will open
+        api_key = 'API' #create your own api over openweatherapp website and use it sign up in the website then click over your profile a dropdown menu will open
                                 #go to api key make your api key
         weather = weather_for_some_date(api_key,city)
 
